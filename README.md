@@ -5,7 +5,7 @@ Author: Noncesense Research Lab, noncesense.org
 
 
 
-## Transaction List (Extended size and version data; v8+)
+## Transaction List (Extended size and version data; Hard fork v8+)
 ```tx_io_size_version_v8.csv``` lists the input and output count of all individual Monero transactions, with extended size and version data, from height 1685555 to height 2033559.
 
 
@@ -21,7 +21,7 @@ Author: Noncesense Research Lab, noncesense.org
 | ```tx_size``` | Integer | Transaction size, bytes |
 | ```tx_extra_size``` | Integer | Size of ```tx_extra``` only, bytes |
 | ```tx_version``` | Integer | Transaction version<br><br> ```Non-RingCT = 1```<br> ```RingCT = 2``` |
-| ```rct_type``` | Integer | RingCT type (for ```tx_version = 2```)<br><br> ```RCTTypeNull = 0```<br> ```RCTTypeFull = 1```<br> ```RCTTypeSimple = 2```<br> ```RCTTypeBulletproof = 3```<br> ```RCTTypeBulletproof2 = 4```<br><br> Reference: ```ringct/rctTypes.h```|
+| ```rct_type``` | Integer | RingCT type (for ```tx_version = 2```)<br><br> ```RCTTypeNull = 0```<br> ```RCTTypeFull = 1```<br> ```RCTTypeSimple = 2```<br> ```RCTTypeBulletproof = 3```<br> ```RCTTypeBulletproof2 = 4```<br><br> Reference: [ringct/rctTypes.h (Monero 0.15.0.1)](https://github.com/monero-project/monero/blob/master/src/ringct/rctTypes.h) |
 
 
 ### Range
