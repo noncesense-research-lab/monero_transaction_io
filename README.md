@@ -6,7 +6,7 @@ Author: Noncesense Research Lab, noncesense.org
 
 
 ## Transaction List (Extended size and version data; Hard fork v8+)
-```tx_io_size_version_v8.csv``` lists the input and output count of all individual Monero transactions, with extended size and version data, from height 1685555 to height 2033559.
+```tx_io_size_version_v8.csv``` lists the input and output count of all individual non-coinbase Monero transactions, with extended size and version data, from height 1685555 to height 2033559.
 
 
 ### Columns
@@ -30,6 +30,7 @@ Start block height: 1685555 (2018-10-18, start of hard fork v8)
 End block height: 2033559 (2020-02-14, during  hard fork v12)  
 Transaction count: 2887474  
 Transaction versions: All  
+Transaction types: Non-coinbase only  
 CSV file size: 78.6 MB  
 CSV number of lines: 2887475  
 
@@ -42,7 +43,7 @@ CSV number of lines: 2887475
 
 
 ## Transaction List (Full chain)
-```tx_io.csv``` lists the input and output count of all individual Monero transactions up to height 2029299.
+```tx_io.csv``` lists the input and output count of all individual non-coinbase Monero transactions up to height 2029299.
 
 
 ### Columns
@@ -62,6 +63,7 @@ Start block height: 0
 End block height: 2029299  
 Transaction count: 6331616  
 Transaction versions: All  
+Transaction types: Non-coinbase only  
 CSV file size: 98.8 MB  
 CSV number of lines: 6331617  
 
